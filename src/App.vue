@@ -1,4 +1,5 @@
 <template>
+  <Header />
   <div class="container mx-auto px-6 py-7 lg:px-40 lg:py-14">
     <router-view v-slot="{ Component, route }">
       <transition
@@ -12,6 +13,8 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import Header from './views/header.vue'
+</script>
 
 <style></style>
