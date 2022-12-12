@@ -1,6 +1,6 @@
 <template>
-  <Header />
-  <div class="container mx-auto px-6 py-7 lg:px-40 lg:py-14">
+  <div class="container mx-auto px-6 py-7 lg:py-14">
+    <Header />
     <router-view v-slot="{ Component, route }">
       <transition
         :enter-active-class="route.meta.enterClass"
